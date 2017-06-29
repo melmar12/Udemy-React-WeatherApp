@@ -5,7 +5,7 @@ var {Link} = require('react-router');
 var Examples = (props) => {
   return (
     <div>
-      <h1 className="text-center">Examples Compnent</h1>
+      <h1 className="text-center page-title">Examples Compnent</h1>
       <p>Here are a few example locations to try out:</p>
       <ol>
         <li><Link to='/?location=Houston'>Houston, TX</Link></li>
